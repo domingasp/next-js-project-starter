@@ -8,8 +8,6 @@ It is opinionated providing a recommended folder structure.
 
 ## How to use?
 
----
-
 Once cloned you will want to install the required dependencies using your package manager of choice.
 
 ```
@@ -36,8 +34,6 @@ The following extensions should be installed for full functionality, and benefit
 
 ## What's included?
 
----
-
 This project has already set-up the main tools you will need to write clean consistent code.
 
 - ESLint with Airbnb style guide - start conforming to some form of style guide. This is highly configurable, rules which you do not need can be disabled. Additionally, the `.eslintignore` file contains any patterns which should be ignored by ESLint, in this case any `*.config.js` files.
@@ -45,8 +41,6 @@ This project has already set-up the main tools you will need to write clean cons
 - Jest and Testing Library - allows testing to start happening outside the box.
 
 ## Folder Structure
-
----
 
 The project contains a simple page with a `Button` component to showcase the expected structure of the project.
 
@@ -61,7 +55,5 @@ The project contains a simple page with a `Button` component to showcase the exp
 - `./public` - store static files, such as images, `robots.txt`, and `favicon.ico`, here.
 
 ## License
-
----
 
 [MIT](license.txt)
