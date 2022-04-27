@@ -36,6 +36,7 @@ The following extensions should be installed for full functionality, and benefit
 
 This project has already set-up the main tools you will need to write clean consistent code.
 
+- [`normalize.css`](https://necolas.github.io/normalize.css/) - _"makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing."_
 - ESLint with Airbnb style guide - start conforming to some form of style guide. This is highly configurable, rules which you do not need can be disabled. Additionally, the `.eslintignore` file contains any patterns which should be ignored by ESLint, in this case any `*.config.js` files.
 - Prettier - to ensure consistency and less hassle from ESLint when writing code.
 - Jest and Testing Library - allows testing to start happening outside the box.
