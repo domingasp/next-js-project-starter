@@ -8,6 +8,13 @@ function Button({ children = 'Button' }: ButtonProps) {
   return (
     <button type="button" className={styles.button}>
       {children}
+
+      <style jsx>{`
+        button {
+          font-style: italic;
+          font-weight: bold;
+        }
+      `}</style>
     </button>
   );
 }
