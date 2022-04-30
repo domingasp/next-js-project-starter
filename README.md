@@ -55,6 +55,11 @@ The project contains a simple page with a `Button` component to showcase the exp
 - `./src/common/types` - reusable types.
 - `./public` - store static files, such as images, `robots.txt`, and `favicon.ico`, here.
 
+## Branches
+
+- `main` - as described above.
+- `with-stitches` - uses Stitches for design instead of `styled-jsx` and CSS Modules.
+
 ## License
 
 [MIT](license.txt)
