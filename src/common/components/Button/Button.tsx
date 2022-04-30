@@ -1,12 +1,30 @@
-import { styled } from '@stitches/react';
+import { styled } from '../../../../stitches.config';
 
 const Button = styled('button', {
-  backgroundColor: 'coral',
+  backgroundColor: '$gray400',
   borderRadius: '9999px',
   fontSize: '13px',
-  padding: '10px 15px',
+  px: '15px',
+  py: '12px',
   '&:hover': {
-    backgroundColor: 'lightgray',
+    backgroundColor: '$gray500',
+  },
+  variants: {
+    color: {
+      purple: {
+        color: 'white',
+        backgroundColor: 'purple',
+        '&:hover': {
+          backgroundColor: 'MediumPurple',
+        },
+      },
+    },
+    size: {
+      large: {
+        px: '24px',
+        py: '20px',
+      },
+    },
   },
 });
 

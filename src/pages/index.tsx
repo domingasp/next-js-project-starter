@@ -17,6 +17,9 @@ function Home() {
       <main className={styles.main}>
         <div>
           <Button>Hello</Button>
+          <Button color="purple" size="large">
+            Large Purple
+          </Button>
         </div>
       </main>
     </div>
