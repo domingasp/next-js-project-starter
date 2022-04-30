@@ -1,22 +1,13 @@
-import styles from './Button.module.css';
+import { styled } from '@stitches/react';
 
-type ButtonProps = {
-  children?: string;
-};
-
-function Button({ children = 'Button' }: ButtonProps) {
-  return (
-    <button type="button" className={styles.button}>
-      {children}
-
-      <style jsx>{`
-        button {
-          font-style: italic;
-          font-weight: bold;
-        }
-      `}</style>
-    </button>
-  );
-}
+const Button = styled('button', {
+  backgroundColor: 'coral',
+  borderRadius: '9999px',
+  fontSize: '13px',
+  padding: '10px 15px',
+  '&:hover': {
+    backgroundColor: 'lightgray',
+  },
+});
 
 export default Button;
